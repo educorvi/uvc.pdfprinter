@@ -1,0 +1,12 @@
+#!/home/irina/Plone/uvc.pdfprinter/buildouts/plone4/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/irina/Plone/uvc.pdfprinter/buildouts/plone4/eggs/zc.buildout-2.5.1-py2.7.egg',
+  '/home/irina/Plone/uvc.pdfprinter/buildouts/plone4/eggs/setuptools-20.9.0-py2.7.egg',
+  ]
+
+import zc.buildout.buildout
+
+if __name__ == '__main__':
+    sys.exit(zc.buildout.buildout.main())

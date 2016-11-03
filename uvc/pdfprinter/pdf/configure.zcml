@@ -1,0 +1,40 @@
+<configure
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="uvc">
+    
+    <browser:page
+        name="pdf.body"
+        layer="uvc.pdfprinter.interfaces.ILayer"
+        for="*"
+        class=".body.Body"
+        permission="zope2.View"
+        />
+
+    <browser:page
+        name="pdf.title"
+        for="*"
+        class=".title.Title"
+        permission="zope2.View"
+        />
+
+    <browser:page
+        name="pdf.footer"
+        for="*"
+        class=".footer.Footer"
+        permission="zope.Public"
+        />
+
+    <browser:page
+        name="pdf.header"
+        for="*"
+        class=".header.Header"
+        permission="zope.Public"
+        />
+
+    <browser:page
+        for="*"
+        name="pdf.macros"
+        template="macros.pt"
+        permission="zope.Public"
+        />
+</configure>

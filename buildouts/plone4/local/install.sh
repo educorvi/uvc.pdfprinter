@@ -1,0 +1,1 @@
+/home/irina/Plone/uvc.pdfprinter/buildouts/plone4/install.sh

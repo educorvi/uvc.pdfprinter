@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="uvc.pdfprinter">
+
+    <five:registerPackage package="." initialize=".initialize" />
+   
+    <genericsetup:registerProfile
+        name="default"
+        title="UVC Pdf Printer"
+        directory="profiles/default"
+        description="UVC Pdf Printer Content-Types"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <genericsetup:registerProfile
+        name="uninstall"
+        title="Uninstall UVC Pdf Printer Content-Types"
+        directory="profiles/uninstall"
+        description="Uninstall UVC Pdf Printer Content-Types"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+   </configure>

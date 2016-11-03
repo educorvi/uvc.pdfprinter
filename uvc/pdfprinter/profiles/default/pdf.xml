@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object name="portal_pdf">
+    <object name="page" meta_type="PDFTheme">>
+        <property name="title">Page</property>
+        <property name="disclaimer">pdf.disclaimer</property>
+        <property name="body">pdf.body</property>
+        <property name="header">pdf.header</property>
+        <property name="footer">pdf.footer</property>
+         <property name="types">
+            <element value="Page"/>
+        </property>
+    </object>
+
+</object>
