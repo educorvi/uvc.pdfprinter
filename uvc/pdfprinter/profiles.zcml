@@ -11,13 +11,13 @@
         name="default"
         title="UVC Pdf Printer"
         directory="profiles/default"
-        description="UVC Pdf Printer Content-Types"
+        description="UVC Pdf printer"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
     <genericsetup:registerProfile
         name="uninstall"
-        title="Uninstall UVC Pdf Printer Content-Types"
+        title="Uninstall UVC Pdf printer"
         directory="profiles/uninstall"
         description="Uninstall UVC Pdf Printer Content-Types"
         provides="Products.GenericSetup.interfaces.EXTENSION"
