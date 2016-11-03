@@ -1,4 +1,0 @@
-
-        [console_scripts]
-        debug = zope.app.appsetup.debug:main
-        

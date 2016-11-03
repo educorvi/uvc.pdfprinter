@@ -1,5 +1,0 @@
-ZODB3
-Twisted>=8.0.1
-zope.component
-setuptools
-zope.testing

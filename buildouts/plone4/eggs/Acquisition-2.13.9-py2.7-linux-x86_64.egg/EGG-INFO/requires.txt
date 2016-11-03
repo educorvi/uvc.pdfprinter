@@ -1,2 +1,0 @@
-ExtensionClass<4.0.dev
-zope.interface

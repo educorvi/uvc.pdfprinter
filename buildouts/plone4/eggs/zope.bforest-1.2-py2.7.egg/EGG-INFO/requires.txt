@@ -1,3 +1,0 @@
-zope.interface
-ZODB3
-setuptools

@@ -1,8 +1,0 @@
-setuptools
-zc.monitor
-ZODB3
-zope.component
-zope.publisher
-zope.app.appsetup
-zope.testing
-mock

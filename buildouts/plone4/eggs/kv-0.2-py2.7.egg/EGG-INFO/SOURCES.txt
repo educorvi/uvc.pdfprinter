@@ -1,8 +1,0 @@
-README.rst
-kv.py
-setup.cfg
-setup.py
-kv.egg-info/PKG-INFO
-kv.egg-info/SOURCES.txt
-kv.egg-info/dependency_links.txt
-kv.egg-info/top_level.txt
