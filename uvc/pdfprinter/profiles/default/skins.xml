@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+
+    <object name="uvcpdfprinter_images" meta_type="Filesystem Directory View"
+            directory="uvc.pdfprinter:skins/uvc_pdfprinter/images" />
+
+    <object name="uvcpdfprinter_styles" meta_type="Filesystem Directory View"
+            directory="uvc.pdfprinter:skins/uvc_pdfprinter/stylesheets" />
+
+    <object name="uvcpdfprinter_templates" meta_type="Filesystem Directory View"
+            directory="uvc.pdfprinter:skins/uvc_pdfprinter/templates" />
+
+    <object name="uvcpdfprinter_javascripts" meta_type="Filesystem Directory View"
+            directory="uvc.pdfprinter:skins/uvc_pdfprinter/javascripts" />
+
+</object>
+
+
