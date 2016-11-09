@@ -13,6 +13,18 @@
     <object name="uvcpdfprinter_javascripts" meta_type="Filesystem Directory View"
             directory="uvc.pdfprinter:skins/uvc_pdfprinter/javascripts" />
 
+<<<<<<< HEAD
+    <skin-path name="*">
+        <layer name="uvcpdfprinter_styles" insert-after="custom" />
+        <layer name="uvcpdfprinter_javascripts" insert-after="uvcpdfprinter_styles" />
+        <layer name="uvcpdfprinter_images" insert-after="uvcpdfprinter_javascripts" />
+        <layer name="uvcpdfprinter_templates" insert-before="uvcpdfprinter_images" />
+    </skin-path>
+
+</object>
+
+=======
 </object>
 
 
+>>>>>>> c70c42ec9981fecbb76c5d5b066c5e2072d7e502
