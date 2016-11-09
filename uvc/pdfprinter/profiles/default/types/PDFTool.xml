@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="PDFTool"
+   meta_type="Factory-based Type Information with dynamic views"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <property name="immediate_view">viewpdftool</property>
+ <property name="default_view">viewpdftool</property>
+ <property name="view_methods">
+  <element value="viewpdftool"/>
+ </property>
+</object>
