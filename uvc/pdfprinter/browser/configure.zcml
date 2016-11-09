@@ -3,4 +3,13 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="uvc">
 
+  <browser:page
+    for="eea.pdf.interfaces.IPDFTool"
+    layer="uvc.pdfprinter.interfaces.ILayer"
+    name="viewpdftool"
+    template="zpt/tool.pt"
+    class=".app.tool.Tool"
+    permission="cmf.ManagePortal"
+    />
+
 </configure>
