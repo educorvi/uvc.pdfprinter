@@ -6,7 +6,7 @@
   <browser:page
     for="eea.pdf.interfaces.IPDFTool"
     layer="uvc.pdfprinter.interfaces.ILayer"
-    name="view"
+    name="viewPdfTool"
     template="zpt/tool.pt"
     class=".app.tool.Tool"
     permission="cmf.ManagePortal"
