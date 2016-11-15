@@ -12,4 +12,10 @@
     permission="cmf.ManagePortal"
     />
 
+
+  <browser:resource
+    name="uvc.pdfprinter.css"
+    file="./css/view.css"
+    />
+
 </configure>
