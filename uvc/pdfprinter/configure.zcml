@@ -11,5 +11,6 @@
   <include package=".browser" />
   <include package=".pdf" />
   <include package=".upgrades" />
+  <include package=".themes" />
 
 </configure>

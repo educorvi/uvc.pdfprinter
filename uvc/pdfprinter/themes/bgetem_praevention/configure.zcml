@@ -1,0 +1,63 @@
+<configure
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="uvc">
+
+  <browser:page
+    name="bgetem.cover"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".cover.Cover"
+    permission="eea.pdf.download"
+    />
+
+  <browser:page
+    name="bgetem.cover.back"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".cover.BackCover"
+    permission="eea.pdf.download"
+    />
+
+  <browser:page
+    name="bgetem.disclaimer"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".disclaimer.Disclaimer"
+    permission="eea.pdf.download"
+    />
+
+  <browser:page
+    name="bgetem.toc"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".toc.Toc"
+    permission="eea.pdf.download"
+    />
+
+  <browser:page
+    name="bgetem.body"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".body.Body"
+    permission="eea.pdf.download"
+    />
+  
+  <browser:page
+    name="bgetem.header"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".header.Header"
+    permission="eea.pdf.download"
+    />
+
+  <browser:page
+    name="bgetem.footer"
+    layer="uvc.pdfprinter.browser.interfaces.ILayer"
+    for="*"
+    class=".footer.Footer"
+    permission="eea.pdf.download"
+    />
+
+
+</configure>
