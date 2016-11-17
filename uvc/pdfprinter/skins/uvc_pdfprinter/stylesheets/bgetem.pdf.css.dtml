@@ -57,7 +57,7 @@ body {
 }
 #content-core .cover-logo img {
   float: right;
-  margin: 20pt 30pt;
+  margin: 30pt;
 }
 .cover-header {
   clear: both;
