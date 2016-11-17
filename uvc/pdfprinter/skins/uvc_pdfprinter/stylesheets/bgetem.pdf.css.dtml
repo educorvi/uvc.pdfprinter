@@ -179,7 +179,10 @@ body.template-praevdocview h1 {
 body.template-praevdocview .container,
 body.template-praevdocview .container-fluid,
 body.template-praevdocview .col-md-12,
-body.template-praevdocview .row
+body.template-praevdocview .row,
+body.template-praevdocview .col-xs-12,
+body.template-praevdocview .col-md-6,
+body.template-praevdocview .col-md-push-3
 {
   width: 100%;
   margin: 0;
