@@ -140,6 +140,10 @@ body {
 .cover-subtitle {
   color: #fff !important;
 }
+.cover-subtitle {
+  font-family: "DGUVMetaWeb", sans-serif;
+  font-weight: 300; 
+}
 .dots-overlay {
   background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
