@@ -43,5 +43,9 @@ body {
   clear: both;
 }
 .cover-body {
-  background-color: #064692;
+  background-color: #064692 !important;
+}
+.cover-title,
+.cover-subtitle {
+  color: #fff !important;
 }
