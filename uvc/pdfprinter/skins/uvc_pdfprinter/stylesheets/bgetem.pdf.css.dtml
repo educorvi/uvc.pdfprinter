@@ -27,7 +27,10 @@ body.template-bgetem-cover #content-core {
 }
 
 body.template-bgetem-cover .container,
-body.template-bgetem-cover .container-fluid {
+body.template-bgetem-cover .container-fluid,
+body.template-bgetem-cover .col-md-12, 
+body.template-bgetem-cover .row 
+{
   width: 100%;
   margin: 0;
   padding: 0;
