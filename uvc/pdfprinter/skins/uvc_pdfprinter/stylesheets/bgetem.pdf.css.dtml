@@ -29,7 +29,11 @@ h6 {}
 .onpagebottom,
 .secondary-navigation,
 .nav,
-footer
+footer,
+#viewlet-above-content-title,
+#viewlet-below-content-title,
+#viewlet-above-content-body,
+#viewlet-below-content-body
 {
   display: none !important;
 }
@@ -42,13 +46,7 @@ footer
 */
 
 /* Template specific */
-body.template-bgetem-cover #viewlet-above-content-title,
-body.template-bgetem-cover #viewlet-below-content-title,
-body.template-bgetem-cover #viewlet-above-content-body,
-body.template-bgetem-cover #viewlet-below-content-body
-{
-  display: none !important;
-}
+
 body.template-bgetem-cover #content-core {
   padding: 0 !important;
 }
