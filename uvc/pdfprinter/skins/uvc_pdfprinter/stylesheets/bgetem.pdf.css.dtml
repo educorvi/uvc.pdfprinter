@@ -1,4 +1,19 @@
-.cover{
-	margin-left: 10em;
-	padding: 10em;
+/*
+* — Hide unnecessary page elements —
+*/
+#pagetop,
+#edit-bar,
+.breadcrumb,
+.onpagebottom,
+body.template-bgetem-cover footer
+{
+  display: none !important;
+}
+
+/*
+* === COVER ===
+*/
+.cover {
+	/* margin-left: 10em;
+	padding: 10em; */
 }
