@@ -41,6 +41,7 @@
     tal:content="description">
       Document Subtitle
     </h2>
+    <div class="dots-overlay"></div>
   </div>
 
 </div>
