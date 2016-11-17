@@ -175,6 +175,7 @@ body {
 */
 body.template-praevdocview h1 {
   color: #064692 !important;
+  margin-bottom: 2.5em;
 }
 body.template-praevdocview .container,
 body.template-praevdocview .container-fluid,
@@ -189,6 +190,9 @@ body.template-praevdocview .col-md-6
 }
 body.template-praevdocview .col-md-push-3 {
   left: 0;
+}
+body.template-praevdocview #side-menu {
+  border: none;
 }
 body.template-praevdocview .container#main {
   padding: 25pt 50pt !important;
