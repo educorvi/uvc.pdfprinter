@@ -13,7 +13,8 @@
 #edit-bar,
 .breadcrumb,
 .onpagebottom,
-.secondary-navigation
+.secondary-navigation,
+footer
 {
   display: none !important;
 }
@@ -21,8 +22,7 @@
 body.template-bgetem-cover #viewlet-above-content-title,
 body.template-bgetem-cover #viewlet-below-content-title,
 body.template-bgetem-cover #viewlet-above-content-body,
-body.template-bgetem-cover #viewlet-below-content-body,
-body.template-bgetem-cover footer
+body.template-bgetem-cover #viewlet-below-content-body
 {
   display: none !important;
 }
