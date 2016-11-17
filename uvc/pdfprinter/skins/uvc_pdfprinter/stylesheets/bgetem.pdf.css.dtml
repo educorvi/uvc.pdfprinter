@@ -35,16 +35,18 @@ body.template-bgetem-cover .row
   margin: 0;
   padding: 0;
 }
+body.template-bgetem-cover #wrap {
+  padding: 0;
+}
+body.template-bgetem-cover #wrap .maincolumn {
+  border: none;
+}
 /*
 * — Resets —
 */
 body {
   margin: 0;
   padding: 0;
-}
-
-#wrap .maincolumn {
-  border: none;
 }
 /*
 * === COVER ===
@@ -107,6 +109,32 @@ body {
   padding: 20pt;
   padding-left: 10%;
   margin-top: 15pt;
+  position: relative;
+  overflow: hidden;
+}
+.cover-body:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 180pt;
+    height: 180pt;
+    background-color: #7888BB !important;
+    top: -15pt;
+    right: -90pt;
+    z-index: 1;
+    border-radius: 50%;
+}
+.cover-body:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 180pt;
+    height: 180pt;
+    background-color: #97A4CB !important;
+    top: 175pt;
+    right: -90pt;
+    z-index: 1;
+    border-radius: 50%;
 }
 .cover-title,
 .cover-subtitle {
