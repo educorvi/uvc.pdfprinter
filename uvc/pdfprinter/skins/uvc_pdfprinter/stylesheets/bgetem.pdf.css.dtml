@@ -1,6 +1,7 @@
 /*
 * — Hide unnecessary page elements —
 */
+#pagetop,
 #edit-bar,
 .breadcrumb,
 .onpagebottom,
@@ -9,8 +10,7 @@
   display: none !important;
 }
 /* Template specific */
-body.template-bgetem-cover footer,
-body.template-bgetem-cover #pagetop
+body.template-bgetem-cover footer
 {
   display: none !important;
 }
