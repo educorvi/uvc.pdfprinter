@@ -46,10 +46,10 @@ body {
 .cover-header {
   clear: both;
 }
-.cover-header left {
+.cover-header .left {
   background-color: #064692 !important;
 }
-.cover-header right {
+.cover-header .right {
   background-color: #A4A5A5 !important;
 }
 .cover-body {
