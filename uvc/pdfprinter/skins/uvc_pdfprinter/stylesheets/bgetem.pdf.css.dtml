@@ -46,6 +46,7 @@ body {
 .cover-header {
   clear: both;
   display: table;
+  height: 200pt;
 }
 .cover-header .left,
 .cover-header .middle,
@@ -61,6 +62,8 @@ body {
 }
 .cover-header .left h3 {
   color: #fff !important;
+  font-family: "DGUVMetaWeb", sans-serif;
+  font-weight: 300;
 }
 .cover-header .middle {
   width: 1%;
