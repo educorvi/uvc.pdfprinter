@@ -72,12 +72,13 @@ body {
   color: #ffffff !important;
   width: 25%;
   vertical-align: bottom;
-  text-align: center;
+  /* text-align: center; */
 }
 .cover-header .left h3 {
   color: #fff !important;
   font-family: "DGUVMetaWeb", sans-serif;
   font-weight: 300;
+  padding-left: 40%;
 }
 .cover-header .middle {
   width: 1%;
@@ -102,6 +103,10 @@ body {
 }
 .cover-body {
   background-color: #064692 !important;
+  height: 520pt;
+  padding: 20pt;
+  padding-left: 10%;
+  margin-top: 15pt;
 }
 .cover-title,
 .cover-subtitle {
