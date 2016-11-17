@@ -17,6 +17,10 @@ body.template-bgetem-cover footer
 /*
 * — Resets —
 */
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 100%;
   margin: 0;
