@@ -144,19 +144,19 @@ body {
   background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
-  background-position: 0 0, 6px 7px !important;
+  background-position: 0 0, 6pt 7pt !important;
   -webkit-background-origin: padding-box !important;
   background-origin: padding-box !important;
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
-  -webkit-background-size: 12px 12px !important;
-  background-size: 12px 12px !important;
+  -webkit-background-size: 12pt 12pt !important;
+  background-size: 12pt 12pt !important;
 }
 .cover-body .dots-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100pt;
+  height: 50pt;
   width: 100%;
 }
