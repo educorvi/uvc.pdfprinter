@@ -37,10 +37,11 @@ body {
 	padding: 10em; */
 }
 #content-core {
-  padding: 0;
+  padding: 0 !important;
 }
 #content-core .cover-logo img {
   float: right;
+  margin: 20pt 30pt;
 }
 .cover-header {
   clear: both;
