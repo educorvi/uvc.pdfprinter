@@ -46,6 +46,12 @@ body {
 .cover-header {
   clear: both;
 }
+.cover-header left {
+  background-color: #064692 !important;
+}
+.cover-header right {
+  background-color: #A4A5A5 !important;
+}
 .cover-body {
   background-color: #064692 !important;
 }
