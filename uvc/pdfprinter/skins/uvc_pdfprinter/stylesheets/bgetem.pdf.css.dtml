@@ -71,7 +71,20 @@ body {
 }
 .cover-header .right {
   background-color: #A4A5A5 !important;
-  /* width: 60%; */
+  position: relative;
+  overflow: hidden;
+}
+.cover-header .right:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 180pt;
+  height: 180pt;
+  background-color: #B6B7B7 !important;
+  top: 10pt;
+  right: -90pt;
+  z-index: 1;
+  border-radius: 50%;
 }
 .cover-body {
   background-color: #064692 !important;
