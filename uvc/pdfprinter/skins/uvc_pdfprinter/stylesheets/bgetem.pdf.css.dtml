@@ -25,6 +25,13 @@ body.template-bgetem-cover footer
 body.template-bgetem-cover #content-core {
   padding: 0 !important;
 }
+
+body.template-bgetem-cover .container,
+body.template-bgetem-cover .container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 /*
 * — Resets —
 */
@@ -32,11 +39,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 #wrap .maincolumn {
   border: none;
 }
