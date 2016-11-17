@@ -173,3 +173,6 @@ body {
 /*
 * === BODY ===
 */
+body.template-praevdocview h1 {
+  color: #064692;
+}
