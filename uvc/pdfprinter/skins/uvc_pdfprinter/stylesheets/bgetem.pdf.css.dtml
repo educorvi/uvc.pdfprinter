@@ -141,16 +141,16 @@ body {
   color: #fff !important;
 }
 .dots-overlay {
-  background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgba(255,255,255,0);
-  background: -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgba(255,255,255,0);
-  background: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgba(255,255,255,0);
-  background-position: 0 0, 5px 5px;
-  -webkit-background-origin: padding-box;
-  background-origin: padding-box;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-background-size: 10px 10px;
-  background-size: 10px 10px;
+  background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgba(255,255,255,0) !important;
+  background: -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgba(255,255,255,0) !important;
+  background: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgba(255,255,255,0) !important;
+  background-position: 0 0, 5px 5px !important;
+  -webkit-background-origin: padding-box !important;
+  background-origin: padding-box !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-background-size: 10px 10px !important;
+  background-size: 10px 10px !important;
 }
 .cover-body .dots-overlay {
   position: absolute;
