@@ -14,6 +14,7 @@
 .breadcrumb,
 .onpagebottom,
 .secondary-navigation,
+.nav,
 footer
 {
   display: none !important;
