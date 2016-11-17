@@ -176,3 +176,12 @@ body {
 body.template-praevdocview h1 {
   color: #064692 !important;
 }
+body.template-praevdocview .container,
+body.template-praevdocview .container-fluid,
+body.template-praevdocview .col-md-12,
+body.template-praevdocview .row
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
