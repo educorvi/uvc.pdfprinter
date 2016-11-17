@@ -181,10 +181,12 @@ body.template-praevdocview .container-fluid,
 body.template-praevdocview .col-md-12,
 body.template-praevdocview .row,
 body.template-praevdocview .col-xs-12,
-body.template-praevdocview .col-md-6,
-body.template-praevdocview .col-md-push-3
+body.template-praevdocview .col-md-6
 {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+body.template-praevdocview .col-md-push-3 {
+  left: 0;
 }
