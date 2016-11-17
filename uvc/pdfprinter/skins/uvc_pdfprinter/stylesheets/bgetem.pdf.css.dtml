@@ -5,11 +5,26 @@
 #edit-bar,
 .breadcrumb,
 .onpagebottom,
+.secondary-navigation
+{
+  display: none !important;
+}
+/* Template specific */
 body.template-bgetem-cover footer
 {
   display: none !important;
 }
-
+/*
+* — Resets —
+*/
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#wrap .maincolumn {
+  border: none;
+}
 /*
 * === COVER ===
 */
