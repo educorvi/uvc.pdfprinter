@@ -1,8 +1,25 @@
+/*
+* === GENERAL ===
+*/
 @page {
   size: A4;
   margin: 0;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
+/*
+* — Heading tags —
+*/
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
 /*
 * — Hide unnecessary page elements —
 */
@@ -51,17 +68,12 @@ body.template-bgetem-cover #wrap {
 /*
 * — Resets —
 */
-body {
-  margin: 0;
-  padding: 0;
-}
 .cover {
-	/* margin-left: 10em;
-	padding: 10em; */
 }
 #content-core .cover-logo img {
   float: right;
   margin: 30pt;
+  height: 53pt;
 }
 .cover-header {
   clear: both;
@@ -171,11 +183,23 @@ body {
 }
 
 /*
+* === BACK COVER ===
+*/
+body.template-bgetem-cover-back {
+
+}
+
+/*
 * === BODY ===
 */
 body.template-praevdocview h1 {
   color: #064692 !important;
   margin-bottom: 2.5em;
+}
+body.template-praevdocview h2 {
+  color: #064692 !important;
+  font-size: 24pt;
+  margin-bottom: 1em;
 }
 body.template-praevdocview .container,
 body.template-praevdocview .container-fluid,
