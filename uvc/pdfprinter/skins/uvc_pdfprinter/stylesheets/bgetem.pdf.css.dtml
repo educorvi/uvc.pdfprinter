@@ -18,6 +18,10 @@
   display: none !important;
 }
 /* Template specific */
+body.template-bgetem-cover #viewlet-above-content-title,
+body.template-bgetem-cover #viewlet-below-content-title,
+body.template-bgetem-cover #viewlet-above-content-body,
+body.template-bgetem-cover #viewlet-below-content-body,
 body.template-bgetem-cover footer
 {
   display: none !important;
