@@ -2,10 +2,7 @@
   size: A4;
   margin: 0;
 }
-/* html, body {
-  width: 210mm;
-  height: 297mm;
-} */
+
 /*
 * — Hide unnecessary page elements —
 */
@@ -19,6 +16,14 @@ footer
 {
   display: none !important;
 }
+#wrap .maincolumn {
+  border: none;
+}
+
+/*
+* === COVER ===
+*/
+
 /* Template specific */
 body.template-bgetem-cover #viewlet-above-content-title,
 body.template-bgetem-cover #viewlet-below-content-title,
@@ -43,9 +48,6 @@ body.template-bgetem-cover .row
 body.template-bgetem-cover #wrap {
   padding: 0;
 }
-body.template-bgetem-cover #wrap .maincolumn {
-  border: none;
-}
 /*
 * — Resets —
 */
@@ -53,9 +55,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/*
-* === COVER ===
-*/
 .cover {
 	/* margin-left: 10em;
 	padding: 10em; */
@@ -75,7 +74,7 @@ body {
   display: table-cell;
 }
 .cover-header .left {
-  background-color: #064692 !important;
+  background-color: #004994 !important;
   color: #ffffff !important;
   width: 25%;
   vertical-align: bottom;
@@ -170,3 +169,7 @@ body {
   height: 50pt;
   width: 100%;
 }
+
+/*
+* === BODY ===
+*/
