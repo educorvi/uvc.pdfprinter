@@ -45,12 +45,25 @@ body {
 }
 .cover-header {
   clear: both;
+  display: table;
+}
+.cover-header .left,
+.cover-header .middle,
+.cover-header .right {
+  display: table-cell;
 }
 .cover-header .left {
   background-color: #064692 !important;
+  color: #ffffff !important;
+  width: 35%;
+}
+.cover-header .middle {
+  width: 1%;
+  min-width: 15pt;
 }
 .cover-header .right {
   background-color: #A4A5A5 !important;
+  width: 60%;
 }
 .cover-body {
   background-color: #064692 !important;
