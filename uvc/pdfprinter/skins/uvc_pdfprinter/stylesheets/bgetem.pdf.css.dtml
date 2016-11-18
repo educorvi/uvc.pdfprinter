@@ -206,6 +206,9 @@ body.template-bgetem-cover-back .cover-body:before,
 body.template-bgetem-cover-back .cover-body:after {
   left: -90pt;
 }
+body.template-bgetem-cover-back .back-cover h4 {
+  color: #fff !important;
+}
 
 /*
 * === BODY ===
