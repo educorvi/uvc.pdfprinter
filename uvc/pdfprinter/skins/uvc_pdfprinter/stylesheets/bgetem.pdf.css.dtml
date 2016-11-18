@@ -48,7 +48,6 @@ footer,
 * === COVER ===
 */
 
-/* Template specific */
 body.template-bgetem-cover #content-core,
 body.template-bgetem-cover-back #content-core {
   padding: 0 !important;
@@ -57,7 +56,11 @@ body.template-bgetem-cover-back #content-core {
 body.template-bgetem-cover .container,
 body.template-bgetem-cover .container-fluid,
 body.template-bgetem-cover .col-md-12, 
-body.template-bgetem-cover .row 
+body.template-bgetem-cover .row,
+body.template-bgetem-cover-back .container,
+body.template-bgetem-cover-back .container-fluid,
+body.template-bgetem-cover-back .col-md-12,
+body.template-bgetem-cover-back .row
 {
   width: 100%;
   margin: 0;
@@ -189,6 +192,7 @@ body.template-bgetem-cover #wrap {
 /*
 * === BACK COVER ===
 */
+
 body.template-bgetem-cover-back #parent-fieldname-title,
 body.template-bgetem-cover-back #parent-fieldname-description {
   display: none;
