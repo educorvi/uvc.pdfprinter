@@ -25,7 +25,7 @@ i18n:domain="eea">
       </div>
     </div>
     <div class="cover-body">
-      <div class="left">
+      <div class="left pull-left">
         <h5>Gustav-Heinemann-Ufer 130</h5>
         <h5>50968 Koln</h5>
         <h5>Telefon 0221 3778-0</h5>
@@ -34,10 +34,10 @@ i18n:domain="eea">
         <br>
         <h6>Webcode XXXXX</h6>
       </div>
-      <div class="right">
+      <div class="right pull-left">
         <h5>***Social media stuff***</h5>
       </div>
-      <div class="rights-reserved">
+      <div class="rights-reserved clearfix">
         <h5>Alle Rechte beim Herausgeber</h5>
       </div>
     <div class="dots-overlay"></div>
