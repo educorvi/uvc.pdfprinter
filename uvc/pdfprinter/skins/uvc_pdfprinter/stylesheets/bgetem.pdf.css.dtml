@@ -30,6 +30,7 @@ h6 {}
 .secondary-navigation,
 .nav,
 footer,
+#globalstatusmessage,
 #viewlet-above-content-title,
 #viewlet-below-content-title,
 #viewlet-above-content-body,
