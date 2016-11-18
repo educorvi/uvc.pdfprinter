@@ -204,7 +204,7 @@ body.template-bgetem-cover-back .cover-header .right {
   padding-bottom: 20pt;
 }
 body.template-bgetem-cover-back .cover-header .right h6,
-body.template-bgetem-cover-back .cover-body .left h6 {
+body.template-bgetem-cover-back .cover-body h6 {
   margin-top: 3pt;
   margin-bottom: 3pt;
 }
