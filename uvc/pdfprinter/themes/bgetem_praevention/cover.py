@@ -101,3 +101,4 @@ class Cover(PDFCover):
 class BackCover(PDFBackCover):
     """ PDF Back cover
     """
+    template = ViewPageTemplateFile('cover.back.pt')
