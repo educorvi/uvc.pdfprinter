@@ -1,16 +1,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
-  xmlns:tal="http://xml.zope.org/namespaces/tal"
-  xmlns:metal="http://xml.zope.org/namespaces/metal"
-  xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-  lang="en"
-  metal:use-macro="context/main_template/macros/master"
-  i18n:domain="eea">
+xmlns:tal="http://xml.zope.org/namespaces/tal"
+xmlns:metal="http://xml.zope.org/namespaces/metal"
+xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+lang="en"
+metal:use-macro="context/main_template/macros/master"
+i18n:domain="eea">
 
 <body>
 
-<metal:content-core fill-slot="content">
-<metal:content-core define-macro="content-core">
-	<div class="dummy"> </div>
+  <metal:content-core fill-slot="content-core">
+  <metal:content-core define-macro="content-core">
+  <div class="back-cover">
+
+    <div class="cover-logo"></div>
+
+    <div class="cover-header">
+      <div class="middle">
+        <h4>Berufsgenossenschaft</h4>
+        <h4>Energie Textil Elektro</h4>
+        <h4>Medienerzeugnisse</h4>
+      </div>
+    </div>
+    <div class="cover-body">
+      <div class="left">
+        <h4>Gustav-Heinemann-Ufer 130</h4>
+        <h4>50968 Koln</h4>
+        <h4>Telefon 0221 3778-0</h4>
+        <h4>Telefax 0221 3778-1199</h4>
+        <h4>E-Mail info@bgetem.de</h4>
+        <br>
+        <strong> Webcode XXXXX</strong>
+      </div>
+      <div class="right">
+        <h4>***Social media stuff***</h4>
+      </div>
+      <div class="footer">
+        <h4>Alle Rechte beim Herausgeber</h4>
+      </div>
+      <h4>Berufsgenossenschaft</h4>
+      <h4>Energie Textil Elektro</h4>
+      <h4>Medienerzeugnisse</h4>
+    <div class="dots-overlay"></div>
+  </div>
+
+</div>
 </metal:content-core>
 </metal:content-core>
 
