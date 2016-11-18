@@ -213,6 +213,7 @@ body.template-bgetem-cover-back .cover-body:before,
 body.template-bgetem-cover-back .cover-body:after {
   left: -90pt;
 }
+body.template-bgetem-cover-back .back-cover strong,
 body.template-bgetem-cover-back .back-cover h5,
 body.template-bgetem-cover-back .back-cover h6 {
   color: #fff !important;
