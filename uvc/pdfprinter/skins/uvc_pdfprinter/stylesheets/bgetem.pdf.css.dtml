@@ -193,8 +193,11 @@ body.template-bgetem-cover-back #parent-fieldname-title,
 body.template-bgetem-cover-back #parent-fieldname-description {
   display: none;
 }
-body.template-bgetem-cover-back .cover-header {
-  /* background-color: #A4A5A5 !important; */
+body.template-bgetem-cover-back .cover-header .right {
+  width: 1%;
+}
+body.template-bgetem-cover-back .cover-header .right:before {
+  left: -90pt;
 }
 
 /*
