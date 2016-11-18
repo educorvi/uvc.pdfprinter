@@ -14,12 +14,12 @@ body {
 * — Heading tags —
 */
 
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
+h1 {font-size: 21pt !important;}
+h2 {font-size: 18pt !important;}
+h3 {font-size: 16pt !important;}
+h4 {font-size: 14pt !important;}
+h5 {font-size: 12pt !important;}
+h6 {font-size: 12pt !important;}
 /*
 * — Hide unnecessary page elements —
 */
@@ -216,6 +216,8 @@ body.template-bgetem-cover-back .cover-body:after {
 body.template-bgetem-cover-back .back-cover h4,
 body.template-bgetem-cover-back .back-cover h5 {
   color: #fff !important;
+  font-family: "DGUVMetaWeb", sans-serif;
+  font-weight: 300;
 }
 
 /*
