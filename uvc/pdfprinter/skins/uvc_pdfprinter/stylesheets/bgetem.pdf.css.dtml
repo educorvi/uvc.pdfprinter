@@ -197,8 +197,8 @@ body.template-bgetem-cover-back .cover-header .right {
   width: 1%;
 }
 body.template-bgetem-cover-back .cover-header .right:before,
-body.template-bgetem-cover-back .cover-body .right:before,
-body.template-bgetem-cover-back .cover-body .right:after {
+body.template-bgetem-cover-back .cover-body:before,
+body.template-bgetem-cover-back .cover-body:after {
   left: -90pt;
 }
 
