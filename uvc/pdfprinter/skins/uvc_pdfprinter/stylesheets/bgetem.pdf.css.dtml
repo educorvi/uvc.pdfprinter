@@ -203,10 +203,17 @@ body.template-bgetem-cover-back .cover-header .right {
   vertical-align: bottom;
   padding-bottom: 20pt;
 }
+body.template-bgetem-cover-back .cover-header .right h6 {
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+}
 body.template-bgetem-cover-back .cover-header .right,
 body.template-bgetem-cover-back .cover-body {
   /* padding-left: 25%; */
   padding-left: 150pt;
+}
+body.template-bgetem-cover-back .cover-body .right {
+  margin-left: 30pt;
 }
 body.template-bgetem-cover-back .cover-header .right:before,
 body.template-bgetem-cover-back .cover-body:before,
@@ -219,6 +226,9 @@ body.template-bgetem-cover-back .back-cover h6 {
   color: #fff !important;
   font-family: "DGUVMetaWeb", sans-serif;
   font-weight: 300;
+}
+body.template-bgetem-cover-back .back-cover strong {
+  font-weight: 800;
 }
 body.template-bgetem-cover-back .rights-reserved {
   clear: both;
