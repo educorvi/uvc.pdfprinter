@@ -38,7 +38,9 @@ footer,
 {
   display: none !important;
 }
-#wrap .maincolumn {
+#wrap .maincolumn,
+#side-menu
+{
   border: none;
 }
 
@@ -213,9 +215,6 @@ body.template-praevdocview .col-md-6
 }
 body.template-praevdocview .col-md-push-3 {
   left: 0;
-}
-body.template-praevdocview #side-menu {
-  border: none;
 }
 body.template-praevdocview .container#main {
   padding: 25pt 50pt !important;
