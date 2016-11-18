@@ -203,9 +203,10 @@ body.template-bgetem-cover-back .cover-header .right {
   vertical-align: bottom;
   padding-bottom: 20pt;
 }
-body.template-bgetem-cover-back .cover-header .right h6 {
-  margin-top: 5pt;
-  margin-bottom: 5pt;
+body.template-bgetem-cover-back .cover-header .right h6,
+body.template-bgetem-cover-back .cover-body .left h6 {
+  margin-top: 3pt;
+  margin-bottom: 3pt;
 }
 body.template-bgetem-cover-back .cover-header .right,
 body.template-bgetem-cover-back .cover-body {
@@ -232,6 +233,8 @@ body.template-bgetem-cover-back .back-cover strong {
 }
 body.template-bgetem-cover-back .rights-reserved {
   clear: both;
+  position: absolute;
+  bottom: 70pt;
 }
 /*
 * === BODY ===
