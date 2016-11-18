@@ -19,26 +19,26 @@ i18n:domain="eea">
 
     <div class="cover-header">
       <div class="right">
-        <h5>Berufsgenossenschaft</h5>
-        <h5>Energie Textil Elektro</h5>
-        <h5>Medienerzeugnisse</h5>
+        <h6><strong>Berufsgenossenschaft</strong></h6>
+        <h6><strong>Energie Textil Elektro</strong></h6>
+        <h6><strong>Medienerzeugnisse</strong></h6>
       </div>
     </div>
     <div class="cover-body">
       <div class="left pull-left">
-        <h5>Gustav-Heinemann-Ufer 130</h5>
-        <h5>50968 Koln</h5>
-        <h5>Telefon 0221 3778-0</h5>
-        <h5>Telefax 0221 3778-1199</h5>
-        <h5>E-Mail info@bgetem.de</h5>
+        <h6>Gustav-Heinemann-Ufer 130</h6>
+        <h6>50968 Koln</h6>
+        <h6>Telefon 0221 3778-0</h6>
+        <h6>Telefax 0221 3778-1199</h6>
+        <h6>E-Mail info@bgetem.de</h6>
         <br>
-        <h6>Webcode XXXXX</h6>
+        <h6><strong>Webcode XXXXX</strong></h6>
       </div>
       <div class="right pull-left">
-        <h5>***Social media stuff***</h5>
+        <h6>***Social media stuff***</h6>
       </div>
       <div class="rights-reserved">
-        <h5>Alle Rechte beim Herausgeber</h5>
+        <h6>Alle Rechte beim Herausgeber</h6>
       </div>
     <div class="dots-overlay"></div>
   </div>
