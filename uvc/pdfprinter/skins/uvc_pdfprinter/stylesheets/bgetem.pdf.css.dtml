@@ -49,8 +49,8 @@ footer,
 */
 
 /* Template specific */
-
-body.template-bgetem-cover #content-core {
+body.template-bgetem-cover #content-core,
+body.template-bgetem-cover-back #content-core {
   padding: 0 !important;
 }
 
@@ -196,7 +196,9 @@ body.template-bgetem-cover-back #parent-fieldname-description {
 body.template-bgetem-cover-back .cover-header .right {
   width: 1%;
 }
-body.template-bgetem-cover-back .cover-header .right:before {
+body.template-bgetem-cover-back .cover-header .right:before,
+body.template-bgetem-cover-back .cover-body .right:before,
+body.template-bgetem-cover-back .cover-body .right:after {
   left: -90pt;
 }
 
