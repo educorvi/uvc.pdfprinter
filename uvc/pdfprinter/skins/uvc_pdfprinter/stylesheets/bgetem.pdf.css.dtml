@@ -194,7 +194,7 @@ body.template-bgetem-cover-back #parent-fieldname-description {
   display: none;
 }
 body.template-bgetem-cover-back .cover-header {
-  background-color: #004994 !important;
+  /* background-color: #A4A5A5 !important; */
 }
 
 /*
