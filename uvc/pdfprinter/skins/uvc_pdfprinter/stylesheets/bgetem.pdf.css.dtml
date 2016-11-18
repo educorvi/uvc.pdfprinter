@@ -265,3 +265,10 @@ body.template-praevdocview .col-md-push-3 {
 body.template-praevdocview .container#main {
   padding: 25pt 50pt !important;
 }
+/*
+* === FOOTER ===
+*/
+body.template-bgetem-footer #parent-fieldname-title,
+body.template-bgetem-footer #parent-fieldname-description {
+  display: none;
+}
