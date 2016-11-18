@@ -71,6 +71,9 @@ body.template-bgetem-cover #wrap {
 */
 .cover {
 }
+.cover-logo {
+  height: 113pt;
+}
 #content-core .cover-logo img {
   float: right;
   margin: 30pt;
@@ -186,8 +189,12 @@ body.template-bgetem-cover #wrap {
 /*
 * === BACK COVER ===
 */
-body.template-bgetem-cover-back {
-
+body.template-bgetem-cover-back #parent-fieldname-title,
+body.template-bgetem-cover-back #parent-fieldname-description {
+  display: none;
+}
+body.template-bgetem-cover-back .cover-header {
+  background-color: #004994 !important;
 }
 
 /*
