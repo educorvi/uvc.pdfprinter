@@ -219,7 +219,9 @@ body.template-bgetem-cover-back .back-cover h6 {
   font-family: "DGUVMetaWeb", sans-serif;
   font-weight: 300;
 }
-
+body.template-bgetem-cover-back .rights-reserved {
+  clear: both;
+}
 /*
 * === BODY ===
 */
