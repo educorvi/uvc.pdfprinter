@@ -187,7 +187,7 @@ body.template-bgetem-cover-back #wrap {
   background-clip: border-box !important;
   -webkit-background-size: 12pt 16pt !important;
   background-size: 12pt 16pt !important; */
-  background: url('/++resource++uvc.pdfprinter.images/dotspattern.svg') !important;
+  background: url('/++resource++dotsoverlay') !important;
 }
 .cover-body .dots-overlay {
   position: absolute;
