@@ -36,8 +36,7 @@
       Document Title
     </h1>
     <h2 class="cover-subtitle" tal:define="
-      description context/Description;
-      description python:view.truncate(description)"
+      description context/Description;"
     tal:content="description">
       Document Subtitle
     </h2>
