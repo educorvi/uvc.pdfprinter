@@ -176,7 +176,7 @@ body.template-bgetem-cover-back #wrap {
   font-family: "DGUVMetaWeb", sans-serif;
   font-weight: 300;
 }
-.dots-overlay {
+.dots-overlay .dots-row {
   /* background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
@@ -187,7 +187,9 @@ body.template-bgetem-cover-back #wrap {
   background-clip: border-box !important;
   -webkit-background-size: 12pt 16pt !important;
   background-size: 12pt 16pt !important; */
-  background: url('/++resource++dotsoverlay') !important;
+  /* background: url('/++resource++dotsoverlay') !important; */
+  border-bottom: 5pt solid #fff;
+  margin: 5pt 0;
 }
 .cover-body .dots-overlay {
   position: absolute;
