@@ -2,9 +2,14 @@
 * === GENERAL ===
 */
 @page {
-  size: A4;
+  /* size: A4; */
+  size: 297mm 210mm
   margin: 0;
 }
+/* html, body {
+  width: 210mm;
+  height: 297mm;
+} */
 body {
   margin: 0;
   padding: 0;
@@ -129,7 +134,7 @@ body.template-bgetem-cover-back #wrap {
 }
 .cover-body {
   background-color: #064692 !important;
-  height: 490pt;
+  height: 500pt;
   padding: 20pt;
   padding-left: 10%;
   margin-top: 16pt;
@@ -170,7 +175,7 @@ body.template-bgetem-cover-back #wrap {
   font-weight: 300;
 }
 .dots-overlay {
-  /* background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
+  background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -moz-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
   background-position: 0 0, 6pt 7pt !important;
@@ -178,8 +183,8 @@ body.template-bgetem-cover-back #wrap {
   background-origin: padding-box !important;
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
-  -webkit-background-size: 12pt 12pt !important;
-  background-size: 12pt 12pt !important; */
+  -webkit-background-size: 12pt 16pt !important;
+  background-size: 12pt 16pt !important;
   /* background: url('dotspattern.svg') !important; */
 }
 .cover-body .dots-overlay {
