@@ -180,6 +180,7 @@ Install
                 
 		libjpeg-dev,
                 libjpeg62,
+		libjpeg62-dev,
                 libpng12-0,
                
 		...
