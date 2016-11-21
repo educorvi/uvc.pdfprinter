@@ -9,9 +9,7 @@
 	<g id="background">
 		<rect width="210" height="210" fill="transparent" />
 	</g>
-	<g id="polkadots" transform="scale(30,30)">
+	<g id="polkadots">
 		<circle cx="1" cy="1" r="0.5" fill="white" />
-		<circle cx="3" cy="1" r="0.5" fill="white" />
-		<circle cx="5" cy="1" r="0.5" fill="white" />
 	</g>
 </svg>
