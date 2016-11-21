@@ -18,4 +18,10 @@
     file="./css/view.css"
     />
 
+
+  <browser:resourceDirectory
+    name="uvc.pdfprinter.images"
+    directory="./img" 
+  />
+	
 </configure>
