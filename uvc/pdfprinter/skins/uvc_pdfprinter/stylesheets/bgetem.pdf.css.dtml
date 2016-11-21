@@ -180,7 +180,7 @@ body.template-bgetem-cover-back #wrap {
   background-clip: border-box !important;
   -webkit-background-size: 12pt 12pt !important;
   background-size: 12pt 12pt !important; */
-  background: url('dotspattern.svg');
+  background: url('dotspattern.svg') !important;
 }
 .cover-body .dots-overlay {
   position: absolute;
