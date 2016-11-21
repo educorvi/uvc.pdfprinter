@@ -136,7 +136,7 @@ body.template-bgetem-cover-back #wrap {
 }
 .cover-body {
   background-color: #064692 !important;
-  height: 495pt;
+  height: 494pt;
   padding: 20pt;
   padding-left: 10%;
   margin-top: 16pt;
