@@ -19,9 +19,11 @@
     />
 
 
-  <browser:resourceDirectory
-    name="uvc.pdfprinter.images"
-    directory="./img" 
-  />
+  <browser:resource
+    name="dotsoverlay"
+    file="./img/dotspattern.svg"
+    />
+
+
 	
 </configure>
