@@ -185,8 +185,8 @@ body.template-bgetem-cover-back #wrap {
   background-origin: padding-box !important;
   -webkit-background-clip: border-box !important;
   background-clip: border-box !important;
-  -webkit-background-size: 12pt 16pt !important;
-  background-size: 12pt 16pt !important;
+  -webkit-background-size: 12pt 12pt !important;
+  background-size: 12pt 12pt !important;
   /* background: url('/++resource++dotsoverlay') !important; */
 }
 .cover-body .dots-overlay {
