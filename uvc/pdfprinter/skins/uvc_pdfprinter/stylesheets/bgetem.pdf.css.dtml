@@ -52,6 +52,9 @@ footer,
 #viewlet-below-content-body,
 .portlet-collection-revisionsliste-themen-a-z,
 .managePortletsLink
+.praevdoc_contentbox,
+.praevdoc_filebox,
+.praevdoc_linkbox
 {
   display: none !important;
 }
