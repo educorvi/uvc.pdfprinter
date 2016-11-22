@@ -41,7 +41,8 @@ footer,
 #viewlet-above-content-title,
 #viewlet-below-content-title,
 #viewlet-above-content-body,
-#viewlet-below-content-body
+#viewlet-below-content-body,
+.portlet-collection-revisionsliste-themen-a-z
 {
   display: none !important;
 }
@@ -176,6 +177,21 @@ body.template-bgetem-cover-back #wrap {
 .cover-subtitle {
   font-family: "DGUVMetaWeb", sans-serif;
   font-weight: 300;
+}
+.portlet-socialmedia ul#social-icons li {
+  display: block;
+  color: #fff !important;
+}
+.portlet-socialmedia ul#social-icons i.fa:before {
+  color: #fff !important;
+}
+.portlet-socialmedia ul#social-icons a[href]:after {
+  content: attr(href);
+  color: #fff !important;
+  font-size: 50%;
+  margin-left: 10pt;
+  vertical-align: middle;
+  text-decoration: none;
 }
 .dots-overlay {
   /* background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), #064692 !important;
