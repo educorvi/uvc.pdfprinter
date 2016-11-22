@@ -179,6 +179,12 @@ body.template-bgetem-cover-back #wrap {
   font-family: "DGUVMetaWeb", sans-serif;
   font-weight: 300;
 }
+.socialmedia {
+  margin:  0;
+}
+.portlet-socialmedia ul#social-icons {
+  max-width: 200pt;
+}
 .portlet-socialmedia ul#social-icons li {
   display: block;
   color: #fff !important;
@@ -189,7 +195,7 @@ body.template-bgetem-cover-back #wrap {
 .portlet-socialmedia ul#social-icons a[href]:after {
   content: attr(href);
   color: #fff !important;
-  font-size: 13pt;
+  font-size: 11pt;
   margin-left: 10pt;
   vertical-align: middle;
   text-decoration: none;
