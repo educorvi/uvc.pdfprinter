@@ -215,7 +215,7 @@ body.template-bgetem-cover-back #wrap {
   -webkit-background-size: 12pt 12pt !important;
   background-size: 12pt 12pt !important; */
   background: url('/++resource++dotsoverlay') !important;
-  background-size: contain !important;
+  background-size: auto 57pt !important;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
