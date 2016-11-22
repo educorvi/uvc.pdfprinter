@@ -6,7 +6,7 @@
   width="70"
   height="220">
   <g id="background">
-    <rect width="70" height="220" fill="transparent" />
+    <rect width="70" height="440" fill="transparent" />
   </g>
   <g id="polkadots">
     <circle cx="20" cy="20" r="10" fill="white"/>
