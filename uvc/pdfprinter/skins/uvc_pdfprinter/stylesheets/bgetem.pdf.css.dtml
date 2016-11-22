@@ -275,9 +275,16 @@ body.template-bgetem-cover-back .rights-reserved {
   bottom: 70pt;
 }
 /*
+* === DISCLAIMER ===
+*/
+body.template-bgetem-disclaimer {
+
+}
+/*
 * === BODY ===
 */
-body.template-praevdocview h1 {
+body.template-praevdocview h1,
+body.template-bgetem-disclaimer h1 {
   color: #064692 !important;
   margin-bottom: 2.5em;
 }
@@ -300,7 +307,8 @@ body.template-praevdocview .col-md-6
 body.template-praevdocview .col-md-push-3 {
   left: 0;
 }
-body.template-praevdocview .container#main {
+body.template-praevdocview .container#main,
+body.template-bgetem-disclaimer .container#main {
   padding: 25pt 50pt !important;
 }
 /*
