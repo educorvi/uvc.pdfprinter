@@ -171,6 +171,7 @@ body.template-bgetem-cover-back #wrap {
 .cover-subtitle {
   color: #fff !important;
   text-transform: capitalize;
+  margin-right: 100pt;
 }
 .cover-subtitle {
   font-family: "DGUVMetaWeb", sans-serif;
