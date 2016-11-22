@@ -42,7 +42,8 @@ footer,
 #viewlet-below-content-title,
 #viewlet-above-content-body,
 #viewlet-below-content-body,
-.portlet-collection-revisionsliste-themen-a-z
+.portlet-collection-revisionsliste-themen-a-z,
+.managePortletsLink
 {
   display: none !important;
 }
@@ -188,9 +189,12 @@ body.template-bgetem-cover-back #wrap {
 .portlet-socialmedia ul#social-icons a[href]:after {
   content: attr(href);
   color: #fff !important;
-  font-size: 50%;
+  font-size: 13pt;
   margin-left: 10pt;
   vertical-align: middle;
+  text-decoration: none;
+}
+.portlet-socialmedia ul#social-icons a:hover {
   text-decoration: none;
 }
 .dots-overlay {
