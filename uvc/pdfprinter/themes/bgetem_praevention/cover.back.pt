@@ -35,7 +35,9 @@
         <h6><strong>Webcode</strong> <strong tal:content="context/webcode"></strong></h6>
       </div>
       <div class="right pull-left">
-        <h6>***Social media stuff***</h6>
+        <metal:portlets define-slot="portlets_two_slot">
+          <tal:block replace="structure provider:plone.rightcolumn" />
+        </metal:portlets>
       </div>
       <div class="rights-reserved">
         <h6>Alle Rechte beim Herausgeber</h6>
