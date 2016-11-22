@@ -188,6 +188,7 @@ body.template-bgetem-cover-back #wrap {
   -webkit-background-size: 12pt 12pt !important;
   background-size: 12pt 12pt !important;
   /* background: url('/++resource++dotsoverlay') !important; */
+  -webkit-print-color-adjust: exact;
 }
 .cover-body .dots-overlay {
   position: absolute;
@@ -230,7 +231,6 @@ body.template-bgetem-cover-back .cover-body:after {
   left: -90pt;
 }
 body.template-bgetem-cover-back .back-cover strong,
-body.template-bgetem-cover-back .back-cover strong span,
 body.template-bgetem-cover-back .back-cover h5,
 body.template-bgetem-cover-back .back-cover h6 {
   color: #fff !important;
