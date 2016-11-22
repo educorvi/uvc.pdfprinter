@@ -32,7 +32,8 @@
         <h6>Telefax 0221 3778-1199</h6>
         <h6>E-Mail info@bgetem.de</h6>
         <br>
-        <h6><strong>Webcode XXXXX</strong></h6>
+        <h6><strong>Webcode</strong></h6>
+	<h6 tal:content="context/webcode"></h6>
       </div>
       <div class="right pull-left">
         <h6>***Social media stuff***</h6>
