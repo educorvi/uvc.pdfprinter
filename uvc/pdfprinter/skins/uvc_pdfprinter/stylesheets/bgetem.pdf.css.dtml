@@ -195,7 +195,7 @@ body.template-bgetem-cover-back #wrap {
 .portlet-socialmedia ul#social-icons a[href]:after {
   content: attr(href);
   color: #fff !important;
-  font-size: 11pt;
+  font-size: 10pt;
   margin-left: 10pt;
   vertical-align: middle;
   text-decoration: none;
