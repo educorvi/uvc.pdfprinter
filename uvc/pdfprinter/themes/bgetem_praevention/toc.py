@@ -28,3 +28,4 @@ class Toc(PDFToc, Mixin):
         self.request.alwaysTranslate = True
         text = self.context.translate(u"Contents", domain="eea")
         return text
+	
