@@ -51,7 +51,7 @@ footer,
 #viewlet-above-content-body,
 #viewlet-below-content-body,
 .portlet-collection-revisionsliste-themen-a-z,
-.managePortletsLink
+.managePortletsLink,
 .praevdoc_contentbox,
 .praevdoc_filebox,
 .praevdoc_linkbox
@@ -264,6 +264,12 @@ body.template-bgetem-cover-back .cover-body {
 }
 body.template-bgetem-cover-back .cover-body .right {
   margin-left: 30pt;
+}
+body.template-bgetem-cover-back .cover-body .right > p {
+  color: #fff !important;
+}
+body.template-bgetem-cover-back .cover-body .right > p:before {
+
 }
 body.template-bgetem-cover-back .cover-header .right:before,
 body.template-bgetem-cover-back .cover-body:before,
