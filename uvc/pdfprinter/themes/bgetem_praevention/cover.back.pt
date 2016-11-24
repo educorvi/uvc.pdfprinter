@@ -35,7 +35,10 @@
         <h6><strong>Webcode</strong> <strong tal:content="context/webcode"></strong></h6>
       </div>
       <div class="right pull-left">
-        <metal:portlets define-slot="portlets_two_slot">
+	<p tal:define="portal python:context.portal_url.getPortalObject();
+		       site python:portal.absolute_url()"
+  	   tal:content="site" />       
+	<metal:portlets define-slot="portlets_two_slot">
           <tal:block replace="structure provider:plone.rightcolumn" />
         </metal:portlets>
       </div>

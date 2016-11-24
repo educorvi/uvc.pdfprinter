@@ -19,7 +19,7 @@
 
 <div tal:define="portal python:context.portal_url.getPortalObject();
        	         disclaimer python:portal['die-bgetem']['impressum']['impressum']">
-	<p tal:content="disclaimer/Title" />
+	<h1 tal:content="disclaimer/Title" />
 	<p tal:content="structure disclaimer/getText" />
 </div>
 
