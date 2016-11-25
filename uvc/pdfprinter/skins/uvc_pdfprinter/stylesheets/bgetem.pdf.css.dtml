@@ -274,6 +274,7 @@ body.template-bgetem-cover-back .cover-body .right > p {
 }
 body.template-bgetem-cover-back .cover-body .right > .fa-globe {
   font-size: 24pt;
+  margin-bottom: 20pt;
 }
 body.template-bgetem-cover-back .cover-body .right > .fa-globe:before {
   color: #fff !important;
