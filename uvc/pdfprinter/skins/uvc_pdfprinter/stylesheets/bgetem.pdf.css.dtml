@@ -270,6 +270,7 @@ body.template-bgetem-cover-back .cover-body .right > p {
   color: #fff !important;
   display: inline-block;
   vertical-align: middle;
+  margin-left: 6pt;
 }
 body.template-bgetem-cover-back .cover-body .right > .fa-globe {
   font-size: 24pt;
