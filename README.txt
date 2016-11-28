@@ -15,7 +15,7 @@ Main features
 
 Install
 =======
-- Add the following to the eggs of the zeoserver_base section of your base.cfg:
+- Add the following to the eggs of the zeoserver_base section of your base.cfg: 
 
   eggs = 
 	...
