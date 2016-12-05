@@ -337,6 +337,11 @@ body.template-praevdocview .container#main,
 body.template-bgetem-disclaimer .container#main {
   padding: 25pt 50pt !important;
 }
+body.template-praevdocview #etem-headertitle-bild img {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
 /*
 * === FOOTER ===
 */
