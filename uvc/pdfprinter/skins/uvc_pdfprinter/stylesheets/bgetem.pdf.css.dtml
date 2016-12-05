@@ -226,7 +226,9 @@ body.template-bgetem-cover-back #wrap {
   -webkit-background-size: 12pt 12pt !important;
   background-size: 12pt 12pt !important; */
   background: url('/++resource++dotsoverlay') !important;
-  background-size: auto 57pt !important;
+  /* size for svg version */
+  /* background-size: auto 57pt !important; */
+  background-size: auto 125pt !important;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -338,6 +340,8 @@ body.template-bgetem-disclaimer .container#main {
   padding: 25pt 50pt !important;
 }
 body.template-praevdocview #etem-headertitle-bild img {
+  height: 100%;
+  width: 100%;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
