@@ -21,7 +21,7 @@
 
   <browser:resource
     name="dotsoverlay"
-    file="./img/dotsoverlay.svg"
+    file="./img/dotsoverlay.png"
     />
 
 
