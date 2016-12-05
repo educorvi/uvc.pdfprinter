@@ -308,7 +308,7 @@ body.template-bgetem-disclaimer a.internal-link,
 body.template-bgetem-disclaimer a.external-link {
   padding-left: 0;
 }
-body.template-bgetem-disclaimer ul {
+body.template-bgetem-disclaimer #content-core ul {
   page-break-before: always;
 }
 /*
