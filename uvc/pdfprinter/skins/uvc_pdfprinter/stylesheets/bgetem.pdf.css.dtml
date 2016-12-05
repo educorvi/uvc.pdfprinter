@@ -2,8 +2,8 @@
 * === GENERAL ===
 */
 @page {
-  /* size: A4; */
-  size: 297mm 210mm
+  size: A4;
+  /* size: 297mm 210mm; */
   margin: 0;
 }
 /* html, body {
