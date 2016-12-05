@@ -35,6 +35,10 @@ h3 {font-size: 16pt !important;}
 h4 {font-size: 14pt !important;}
 h5 {font-size: 12pt !important;}
 h6 {font-size: 10pt !important;}
+
+.page-break-before {
+  page-break-before: always;
+}
 /*
 * — Hide unnecessary page elements —
 */
@@ -308,8 +312,9 @@ body.template-bgetem-disclaimer a.internal-link,
 body.template-bgetem-disclaimer a.external-link {
   padding-left: 0;
 }
-.page-break-before {
-  page-break-before: always;
+
+body.template-bgetem-disclaimer .container#main {
+  margin: 0;
 }
 /*
 * === BODY ===
