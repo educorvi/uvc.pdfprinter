@@ -315,6 +315,10 @@ body.template-bgetem-disclaimer a.external-link {
 
 body.template-bgetem-disclaimer .container#main {
   margin: 0;
+  width: 100%;
+}
+body.template-bgetem-disclaimer #content-core > div > p:last-of-type {
+  page-break-before: always;
 }
 /*
 * === BODY ===
