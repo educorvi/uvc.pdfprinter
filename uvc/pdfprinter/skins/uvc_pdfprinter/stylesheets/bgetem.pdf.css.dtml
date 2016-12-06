@@ -18,7 +18,8 @@ body {
   min-height: 0;
 }
 b, strong {
-  font-weight: 500;
+  font-weight: normal;
+  font-family: "DGUVMetaWeb-Normal", sans-serif;
 }
 /* ul {
   page-break-inside: avoid;
