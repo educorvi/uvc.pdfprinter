@@ -344,8 +344,8 @@ body.template-bgetem-disclaimer #content-core ul li:last-child:after {
   display: none;
 }
 body.template-bgetem-disclaimer #content-core ul .internal-link {
-  font-weight: bold;
-  font-family: "DGUVMetaWeb-Normal", sans-serif;
+  font-weight: 100;
+  font-family: "DGUVMetaWeb-Bold", sans-serif;
 }
 /*
 * === BODY ===
