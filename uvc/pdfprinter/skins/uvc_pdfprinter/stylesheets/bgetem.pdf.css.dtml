@@ -131,8 +131,9 @@ body.template-bgetem-cover-back #wrap {
 .cover-header .left h3 {
   color: #fff !important;
   font-family: "DGUVMetaWeb-Normal", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   padding-left: 40%;
+  -webkit-font-smoothing: antialiased;
 }
 .cover-header .middle {
   width: 1%;
@@ -192,10 +193,11 @@ body.template-bgetem-cover-back #wrap {
 .cover-subtitle {
   color: #fff !important;
   margin-right: 100pt;
+  -webkit-font-smoothing: antialiased;
 }
 .cover-subtitle {
-  font-family: "DGUVMetaWeb", sans-serif;
-  font-weight: 300;
+  font-family: "DGUVMetaWeb-Normal", sans-serif;
+  font-weight: 500;
 }
 .socialmedia {
   margin:  0;
