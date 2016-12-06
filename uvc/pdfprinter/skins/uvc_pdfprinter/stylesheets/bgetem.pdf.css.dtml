@@ -13,14 +13,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "DGUVMetaWeb-Normal", sans-serif;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   min-height: 0;
 }
-b, strong {
-  font-weight: normal;
-  font-family: "DGUVMetaWeb-Bold", sans-serif;
-}
+
 /* ul {
   page-break-inside: avoid;
 } */
@@ -38,6 +36,10 @@ h4 {font-size: 14pt !important;}
 h5 {font-size: 12pt !important;}
 h6 {font-size: 10pt !important;}
 
+/*h1, h2, h3, h4 {
+  font-family: "DGUVMetaWeb-Normal", sans-serif;
+  font-weight: 800;
+}*/
 .page-break-before {
   page-break-before: always !important;
 }
@@ -128,8 +130,8 @@ body.template-bgetem-cover-back #wrap {
 }
 .cover-header .left h3 {
   color: #fff !important;
-  font-family: "DGUVMetaWeb", sans-serif;
-  font-weight: 300;
+  font-family: "DGUVMetaWeb-Normal", sans-serif;
+  font-weight: 100;
   padding-left: 40%;
 }
 .cover-header .middle {
@@ -189,7 +191,6 @@ body.template-bgetem-cover-back #wrap {
 .cover-title,
 .cover-subtitle {
   color: #fff !important;
-  text-transform: capitalize;
   margin-right: 100pt;
 }
 .cover-subtitle {
@@ -320,7 +321,7 @@ body.template-bgetem-disclaimer .container#main {
   width: 100%;
 }
 body.template-bgetem-disclaimer #content-core > div > p:last-of-type {
-  page-break-before: always !important;
+ /* page-break-before: always !important;*/
 }
 body.template-bgetem-disclaimer #content-core ul li {
   text-indent: 0;
@@ -334,8 +335,8 @@ body.template-bgetem-disclaimer #content-core ul li:after {
   content: ";";
 }
 body.template-bgetem-disclaimer #content-core ul .internal-link {
-  font-weight: normal;
-  font-family: "DGUVMetaWeb-Bold", sans-serif;
+  font-weight: bold;
+  font-family: "DGUVMetaWeb-Normal", sans-serif;
 }
 /*
 * === BODY ===
@@ -343,7 +344,7 @@ body.template-bgetem-disclaimer #content-core ul .internal-link {
 body.template-praevdocview h1,
 body.template-bgetem-disclaimer h1 {
   color: #064692 !important;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
 }
 body.template-praevdocview h2 {
   color: #064692 !important;
