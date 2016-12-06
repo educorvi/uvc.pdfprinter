@@ -322,6 +322,14 @@ body.template-bgetem-disclaimer .container#main {
 body.template-bgetem-disclaimer #content-core > div > p:last-of-type {
   page-break-before: always !important;
 }
+
+body.template-bgetem-disclaimer #content-core ul li:before {
+  display: none;
+}
+body.template-bgetem-disclaimer #content-core ul .internal-link {
+  font-weight: normal;
+  font-family: "DGUVMetaWeb-Bold", sans-serif;
+}
 /*
 * === BODY ===
 */
