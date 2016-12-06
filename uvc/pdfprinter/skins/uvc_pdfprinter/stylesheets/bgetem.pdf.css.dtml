@@ -297,11 +297,11 @@ body.template-bgetem-cover-back .back-cover strong,
 body.template-bgetem-cover-back .back-cover h5,
 body.template-bgetem-cover-back .back-cover h6 {
   color: #fff !important;
-  font-family: "DGUVMetaWeb", sans-serif;
-  font-weight: 300;
+  /*font-family: "DGUVMetaWeb", sans-serif;
+  font-weight: 300;*/
 }
 body.template-bgetem-cover-back .back-cover strong {
-  font-weight: 800;
+  font-weight: 600;
 }
 body.template-bgetem-cover-back .rights-reserved {
   clear: both;
