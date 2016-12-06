@@ -327,7 +327,7 @@ body.template-bgetem-disclaimer .container#main {
   width: 100%;
 }
 body.template-bgetem-disclaimer #content-core > div > p:last-of-type {
- /* page-break-before: always !important;*/
+  page-break-before: always !important;
 }
 body.template-bgetem-disclaimer #content-core ul li {
   text-indent: 0;
