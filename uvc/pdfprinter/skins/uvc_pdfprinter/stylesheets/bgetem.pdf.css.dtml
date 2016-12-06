@@ -322,9 +322,16 @@ body.template-bgetem-disclaimer .container#main {
 body.template-bgetem-disclaimer #content-core > div > p:last-of-type {
   page-break-before: always !important;
 }
-
+body.template-bgetem-disclaimer #content-core ul li {
+  text-indent: 0;
+  padding-left: 0;
+  display: inline;
+}
 body.template-bgetem-disclaimer #content-core ul li:before {
   display: none;
+}
+body.template-bgetem-disclaimer #content-core ul li:after {
+  content: ";";
 }
 body.template-bgetem-disclaimer #content-core ul .internal-link {
   font-weight: normal;
