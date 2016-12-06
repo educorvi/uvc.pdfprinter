@@ -19,7 +19,7 @@ body {
 }
 b, strong {
   font-weight: normal;
-  font-family: "DGUVMetaWeb-Normal", sans-serif;
+  font-family: "DGUVMetaWeb-Bold", sans-serif;
 }
 /* ul {
   page-break-inside: avoid;
