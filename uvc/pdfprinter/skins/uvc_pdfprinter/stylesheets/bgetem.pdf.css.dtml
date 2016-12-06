@@ -340,6 +340,9 @@ body.template-bgetem-disclaimer #content-core ul li:before {
 body.template-bgetem-disclaimer #content-core ul li:after {
   content: ";";
 }
+body.template-bgetem-disclaimer #content-core ul li:last-child:after {
+  display: none;
+}
 body.template-bgetem-disclaimer #content-core ul .internal-link {
   font-weight: bold;
   font-family: "DGUVMetaWeb-Normal", sans-serif;
