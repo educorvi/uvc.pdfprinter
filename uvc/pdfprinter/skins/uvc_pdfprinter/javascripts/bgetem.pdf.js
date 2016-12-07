@@ -1,4 +1,6 @@
 (function ($) {
+
+
   'use strict';
 
   function print_tabs () {
@@ -13,7 +15,12 @@
     });
   };
 
-  $(document).ready(function () {
-    print_tabs();
-  });
+  if (window.matchMedia) {
+        var mediaQueryList = window.matchMedia('print');
+        mediaQueryList.addListener(function(mql) {
+            if (mql.matches) 
+	    	print_tabs();
+        });
+}
+  
 }(jQuery));
