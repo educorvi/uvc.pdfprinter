@@ -23,7 +23,10 @@ img {
   page-break-inside: avoid;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
-  max-width: 100%;
+  min-height: 1pt;
+  min-width: 1pt;
+  height: auto;
+  width: auto;
 }
 /*
 * — Heading tags —
@@ -43,8 +46,8 @@ h6 {font-size: 10pt !important;}
   font-family: "DGUVMetaWeb-Normal", sans-serif;
   font-weight: 800;
 }*/
-.page-break-before {
-  page-break-before: always !important;
+table, .table {
+  page-break-inside: avoid !important;
 }
 .panel {
   border-color: #004994;
@@ -355,6 +358,10 @@ body.template-bgetem-disclaimer #content-core ul .internal-link {
 /*
 * === BODY ===
 */
+body.template-praevdocview .tab-content > .tab-pane {
+  display: block;
+}
+
 body.template-praevdocview h1,
 body.template-bgetem-disclaimer h1 {
   color: #064692 !important;
@@ -384,8 +391,8 @@ body.template-bgetem-disclaimer .container#main {
   padding: 25pt 50pt !important;
 }
 body.template-praevdocview #etem-headertitle-bild img {
-  height: 100%;
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -398,7 +405,7 @@ body.template-praevdocview .praevdoc_linkbox {
 
 body.template-praevdocview .praevdoc_contentbox img {
   float: left;
-  width: 25%;
+  max-width: 25% !important;
   padding: 10px;
 }
 body.template-praevdocview .praevdoc_contentbox p {
