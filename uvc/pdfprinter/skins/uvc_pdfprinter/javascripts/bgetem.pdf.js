@@ -16,7 +16,7 @@
   function printListener (mql) {
     if (mql.matches) {
       print_tabs();
-      mql.removeListener(printListener);
+      mediaQueryList.removeListener(printListener);
     }
   }
   if (window.matchMedia) {

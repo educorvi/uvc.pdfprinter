@@ -31,16 +31,18 @@ img {
 /*
 * — Heading tags —
 */
-h1, h2, h3, h4, h5, h6 {
-  page-break-inside: avoid;
-  page-break-after: avoid;
-}
+
 h1 {font-size: 21pt !important;}
 h2 {font-size: 18pt !important;}
 h3 {font-size: 16pt !important;}
 h4 {font-size: 14pt !important;}
 h5 {font-size: 12pt !important;}
 h6 {font-size: 10pt !important;}
+
+.tab-pane p,h4 {
+  page-break-inside: avoid !important;
+  page-break-after: always !important;
+}
 
 /*h1, h2, h3, h4 {
   font-family: "DGUVMetaWeb-Normal", sans-serif;
@@ -365,7 +367,7 @@ body.template-praevdocview .tab-content > .tab-pane {
 body.template-praevdocview h1,
 body.template-bgetem-disclaimer h1 {
   color: #064692 !important;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 body.template-praevdocview h2 {
   color: #064692 !important;
@@ -390,6 +392,7 @@ body.template-praevdocview .col-md-push-3 {
 body.template-bgetem-disclaimer .container#main {
   padding: 25pt 50pt !important;
 }
+
 body.template-praevdocview #etem-headertitle-bild img {
   min-width: 100%;
   min-height: 100%;
@@ -407,6 +410,9 @@ body.template-praevdocview .praevdoc_contentbox img {
   float: left;
   max-width: 25% !important;
   padding: 10px;
+}
+body.template-praevdocview .praevdoc_contentbox h4 {
+  margin-left: 10px;
 }
 body.template-praevdocview .praevdoc_contentbox p {
   margin: 0 10px 10px;
