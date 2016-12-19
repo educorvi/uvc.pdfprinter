@@ -7,6 +7,7 @@
         <property name="header">bgetem.header</property>
         <property name="footer">bgetem.footer</property>
         <property name="toc">bgetem.toc</property>
+        <property name="staticFooterAndHeader">False</property>
         <property name="cover">bgetem.cover</property>
         <property name="backcover">bgetem.cover.back</property>
         <property name="types">
