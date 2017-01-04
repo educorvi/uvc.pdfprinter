@@ -439,3 +439,35 @@ body.template-bgetem-footer #parent-fieldname-title,
 body.template-bgetem-footer #parent-fieldname-description {
   display: none;
 }
+
+.tab-content {
+        overflow: visible!important;
+        display: inline-block!important;
+        page-break-after: always!important;
+        clear:both;
+    }
+
+    .tab-content > div {
+        display: flex!important;
+        flex-direction: column;
+        page-break-after: always!important;
+    }
+
+
+    .tab-content th,
+    .tab-content td {
+        width: 50%;
+        float: left;
+
+    }
+
+    .tab-content td:nth-child(even),
+    .tab-content th:nth-child(even) {
+         float: right!important;
+    }
+
+
+#content div {
+    page-break-inside: avoid;
+       clear:both;
+}
