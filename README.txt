@@ -26,7 +26,6 @@ Install
         eea.pdf
         eea.converter
         eea.downloads
-        Products.PrintingMailHost
         plone.app.async
 
 - Add the following environment variables to the zeoserver_base section of your base.cfg: 
@@ -100,36 +99,6 @@ Install
 
     [client2]
   
-    zope-conf-additional =
-    	<product-config tabsuche>
-    	xlsfile ${buildout:directory}/var/share/tabsuche/etem_datatables.xls
-    	</product-config>
-    	<product-config formworker>
-    	basepath ${buildout:directory}/var/share/formresults
-    	</product-config>
-    	<product-config handlungshilfe>
-    	xlsfile ${buildout:directory}/src/nva.onlinehandlungshilfe/nva/onlinehandlungshilfe/lib/wzcode.xls
-    	</product-config>
-   	<product-config beaker>
-    	cache.enabled           False
-    	cache.type              file
-    	cache.data_dir          ${buildout:directory}/var/cache/data
-    	cache.lock_dir          ${buildout:directory}/var/cache/lock
-    	cache.regions           short, long
-    	cache.short.expire      60
-    	cache.long.expire       3600
-    	session.type            file
-    	session.data_dir        ${buildout:directory}/var/sessions/data
-    	session.lock_dir        ${buildout:directory}/var/sessions/lock
-    	session.key             beaker.session
-    	session.secret          mybgetemsecret
-    	session.cookie_expires  True
-    	</product-config>
-    	<product-config mongodb>
-    	mongoserver 10.33.202.25
-    	mongoport 27017
-    	</product-config>
-
     zcml =
     	...
     	plone.app.async-single_db_instance
@@ -140,61 +109,9 @@ Install
 
     [client3]
     <= client_base
-    
     recipe = plone.recipe.zope2instance
     zeo-address = ${zeoserver:zeo-address}
     http-address = 9082
-    zope-conf-additional =
-    	<product-config tabsuche>
-      	xlsfile ${buildout:directory}/var/share/tabsuche/etem_datatables.xls
-    	</product-config>
-  	<product-config formworker>
-  	basepath ${buildout:directory}/var/share/formresults
-  	</product-config>
-  	<product-config handlungshilfe>
-      	xlsfile ${buildout:directory}/src/nva.onlinehandlungshilfe/nva/onlinehandlungshilfe/lib/wzcode.xls
-    	</product-config>
-    	<product-config beaker>
-        cache.enabled           False
-        cache.type              file
-        cache.data_dir          ${buildout:directory}/var/cache/data
-  
-    [client3]
-    <= client_base
-    
-    recipe = plone.recipe.zope2instance
-    zeo-address = ${zeoserver:zeo-address}
-    http-address = 9082
-    zope-conf-additional =
-    	<product-config tabsuche>
-      	xlsfile ${buildout:directory}/var/share/tabsuche/etem_datatables.xls
-    	</product-config>
-    	<product-config formworker>
-    	basepath ${buildout:directory}/var/share/formresults
-    	</product-config>
-    	<product-config handlungshilfe>
-    	xlsfile ${buildout:directory}/src/nva.onlinehandlungshilfe/nva/onlinehandlungshilfe/lib/wzcode.xls
-    	</product-config>
-    	<product-config beaker>
-    	cache.enabled           False
-    	cache.type              file
-    	cache.data_dir          ${buildout:directory}/var/cache/data
-    	cache.lock_dir          ${buildout:directory}/var/cache/lock
-    	cache.regions           short, long
-        cache.short.expire      60
-        cache.long.expire       3600
-        session.type            file
-        session.data_dir        ${buildout:directory}/var/sessions/data
-        session.lock_dir        ${buildout:directory}/var/sessions/lock
-        session.key             beaker.session
-	session.secret          mybgetemsecret
-       	session.cookie_expires  True
-    	</product-config>
-   	<product-config mongodb>
-        mongoserver 10.33.202.25
-        mongoport 27017
-    	</product-config>
-  
     zcml =
     	${buildout:zcml}
       	plone.app.async-single_db_worker
@@ -207,7 +124,7 @@ Debian/Ubuntu             CentOS 7                  dependency for
 libjpeg-dev               libjpeg-turbo-devel       Pillow
 libjpeg62                 libjpeg-turbo             wkhtmltopdf	
 libpng12-0                libpng12                  wkhtmltopdf
-libjpef62-dev
+libjpef62-dev             libjpef62-dev             wkhtmltopdf
 ========================  ========================  ===============================
 
 - Add uvc.pdfprinter to your eggs section in your buildout and re-run buildout.
