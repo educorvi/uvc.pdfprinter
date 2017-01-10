@@ -4,9 +4,6 @@ uvc pdf printer
 
 UVC PDF Printer
 
-Contents
-========
-
 .. contents::
 
 Install
