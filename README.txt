@@ -9,10 +9,6 @@ Contents
 
 .. contents::
 
-Main features
-=============
-
-
 Install
 =======
 - Add the following to the eggs of the zeoserver_base section of your base.cfg:
@@ -133,7 +129,3 @@ libjpef62-dev             libjpef62-dev             wkhtmltopdf
   https://github.com/educorvi/uvc.pdfprinter/tree/master/buildouts/plone4
 
 - Install uvc.pdfprinter within Site Setup > Add-ons
-
-Getting started
-===============
-
