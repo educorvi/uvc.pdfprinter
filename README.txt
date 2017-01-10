@@ -20,6 +20,7 @@ Install
 ::
     
     [zeoserver_base]
+    
     eggs =
         ...
         eea.pdf
@@ -28,12 +29,12 @@ Install
         Products.PrintingMailHost
         plone.app.async
 
-- Add the following environment variables to the zeoserver_base section of your base.cfg:
-  
+- Add the following environment variables to the zeoserver_base section of your base.cfg: 
 
 ::
     
     [zeoserver_base]
+    
     environment-vars =
         ...
         WKHTMLTOPDF_PATH ${wkhtmltopdf:location}/wkhtmltopdf
@@ -66,12 +67,13 @@ Install
 ::
 
     [buildout]
+
     parts = 
-    ...
-    client3
-    media-downloads
-    media-downloads-temp
-    wkhtmltopdf
+    	...
+    	client3
+    	media-downloads
+    	media-downloads-temp
+    	wkhtmltopdf
 
 - Add the following variables to the buildout section of your buildout.cfg:
 
@@ -87,48 +89,50 @@ Install
 ::
 
     [client1]
+    
     zcml =
-    ...
-    plone.app.async-single_db_instance
+    	...
+    	plone.app.async-single_db_instance
 
 - On the client2 section of your buildout add the following:
 
 ::
 
-    [client2]  
+    [client2]
+  
     zope-conf-additional =
-    <product-config tabsuche>
-    xlsfile ${buildout:directory}/var/share/tabsuche/etem_datatables.xls
-    </product-config>
-    <product-config formworker>
-    basepath ${buildout:directory}/var/share/formresults
-    </product-config>
-    <product-config handlungshilfe>
-    xlsfile ${buildout:directory}/src/nva.onlinehandlungshilfe/nva/onlinehandlungshilfe/lib/wzcode.xls
-    </product-config>
-    <product-config beaker>
-    cache.enabled           False
-    cache.type              file
-    cache.data_dir          ${buildout:directory}/var/cache/data
-    cache.lock_dir          ${buildout:directory}/var/cache/lock
-    cache.regions           short, long
-    cache.short.expire      60
-    cache.long.expire       3600
-    session.type            file
-    session.data_dir        ${buildout:directory}/var/sessions/data
-    session.lock_dir        ${buildout:directory}/var/sessions/lock
-    session.key             beaker.session
-    session.secret          mybgetemsecret
-    session.cookie_expires  True
-    </product-config>
-    <product-config mongodb>
-    mongoserver 10.33.202.25
-    mongoport 27017
-    </product-config>
+    	<product-config tabsuche>
+    	xlsfile ${buildout:directory}/var/share/tabsuche/etem_datatables.xls
+    	</product-config>
+    	<product-config formworker>
+    	basepath ${buildout:directory}/var/share/formresults
+    	</product-config>
+    	<product-config handlungshilfe>
+    	xlsfile ${buildout:directory}/src/nva.onlinehandlungshilfe/nva/onlinehandlungshilfe/lib/wzcode.xls
+    	</product-config>
+   	<product-config beaker>
+    	cache.enabled           False
+    	cache.type              file
+    	cache.data_dir          ${buildout:directory}/var/cache/data
+    	cache.lock_dir          ${buildout:directory}/var/cache/lock
+    	cache.regions           short, long
+    	cache.short.expire      60
+    	cache.long.expire       3600
+    	session.type            file
+    	session.data_dir        ${buildout:directory}/var/sessions/data
+    	session.lock_dir        ${buildout:directory}/var/sessions/lock
+    	session.key             beaker.session
+    	session.secret          mybgetemsecret
+    	session.cookie_expires  True
+    	</product-config>
+    	<product-config mongodb>
+    	mongoserver 10.33.202.25
+    	mongoport 27017
+    	</product-config>
 
     zcml =
-    ...
-    plone.app.async-single_db_instance
+    	...
+    	plone.app.async-single_db_instance
 
 - Add the client3 section to your buildout:
 
@@ -136,6 +140,7 @@ Install
 
     [client3]
     <= client_base
+    
     recipe = plone.recipe.zope2instance
     zeo-address = ${zeoserver:zeo-address}
     http-address = 9082
@@ -156,6 +161,7 @@ Install
   
     [client3]
     <= client_base
+    
     recipe = plone.recipe.zope2instance
     zeo-address = ${zeoserver:zeo-address}
     http-address = 9082
@@ -193,21 +199,18 @@ Install
     	${buildout:zcml}
       	plone.app.async-single_db_worker
 
-- Add the following dependencies to your setup.py:
+- Install the following packages on your server machine:
 
-::
-
-    install_requires=[
-    	...
-    	libjpeg-dev,
-	libjpeg62,
-	libjpeg62-dev,
-	libpng12-0,
-	...
-        ]
+========================  ========================  ===============================
+Debian/Ubuntu             CentOS 7                  dependency for
+========================  ========================  ===============================
+libjpeg-dev               libjpeg-turbo-devel       Pillow
+libjpeg62                 libjpeg-turbo             wkhtmltopdf	
+libpng12-0                libpng12                  wkhtmltopdf
+libjpef62-dev
 
 - Add uvc.pdfprinter to your eggs section in your buildout and re-run buildout.
-  
+
   You can download a sample buildout from
   https://github.com/educorvi/uvc.pdfprinter/tree/master/buildouts/plone4
 
