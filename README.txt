@@ -17,13 +17,13 @@ Install
 =======
 - Add the following to the eggs of the zeoserver_base section of your base.cfg: 
 
-|    eggs = 
-|     ...
-|     eea.pdf
-|     eea.converter
-|     eea.downloads
-|     Products.PrintingMailHost
-|     plone.app.async  
+|	eggs = 
+|		...
+|		eea.pdf
+|		eea.converter
+|		eea.downloads
+|		Products.PrintingMailHost
+|		plone.app.async  
 
 - Add the following environment variables to the zeoserver_base section of your base.cfg:
   
