@@ -462,6 +462,22 @@ body.template-bgetem-footer #parent-fieldname-description {
 
     }
 
+.table th {
+ background-color: transparent!important;
+color: inherit!important;
+}
+
+.table-striped thead {
+    background-color: transparent!important;
+    color: inherit!important;
+}
+
+.table-striped *{
+border: none!important;
+padding: 10px;
+margin: 10px;
+}
+
 /*.tab-content th {
   min-height: 50px !important;
   overflow: hidden !important;
