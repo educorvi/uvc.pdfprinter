@@ -18,6 +18,7 @@ Install
 - Add the following to the eggs of the zeoserver_base section of your base.cfg: 
 
   eggs = 
+	
 	...
 	eea.pdf
         eea.converter
@@ -28,11 +29,11 @@ Install
 - Add the following environment variables to the zeoserver_base section of your base.cfg:
   
   environment-vars = 
-			...
-			WKHTMLTOPDF_PATH ${wkhtmltopdf:location}/wkhtmltopdf
-			EEADOWNLOADS_NAME ${buildout:media-downloads-name}
-			EEADOWNLOADS_PATH ${buildout:media-downloads-path}
-			EEACONVERTER_TEMP ${buildout:media-downloads-temp}
+  	...
+	WKHTMLTOPDF_PATH ${wkhtmltopdf:location}/wkhtmltopdf
+	EEADOWNLOADS_NAME ${buildout:media-downloads-name}
+	EEADOWNLOADS_PATH ${buildout:media-downloads-path}
+	EEACONVERTER_TEMP ${buildout:media-downloads-temp}
 
 - Add the following sections to your base.cfg:
 
