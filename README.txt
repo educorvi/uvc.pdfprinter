@@ -208,6 +208,7 @@ libjpeg-dev               libjpeg-turbo-devel       Pillow
 libjpeg62                 libjpeg-turbo             wkhtmltopdf	
 libpng12-0                libpng12                  wkhtmltopdf
 libjpef62-dev
+========================  ========================  ===============================
 
 - Add uvc.pdfprinter to your eggs section in your buildout and re-run buildout.
 
