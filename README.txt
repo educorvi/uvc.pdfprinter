@@ -52,7 +52,7 @@ Install
 
     [wkhtmltopdf]
     recipe = hexagonit.recipe.download
-    url = http://eggrepo.apps.eea.europa.eu/pypi/wkhtmltopdf/wkhtmltopdf-0.12.1.tgz
+    url = http://eggrepo.apps.eea.europa.eu/pypi/wkhtmltopdf/wkhtmltopdf-0.12.2.4.tgz
 
 - Add the following parts to the buildout section of your buildout.cfg:
 
